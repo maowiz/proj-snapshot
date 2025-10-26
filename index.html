@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Initialization Screen Preview</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        html {
+            background: #0a0015;
+        }
+        
+        html,
+        body,
+        #root {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            background: #0a0015;
+            color: #cfefff;
+            font-family: Rajdhani, Arial, sans-serif;
+        }
+
+        /* Minimal reset for tailwind-like classes used in component where possible */
+        .absolute {
+            position: absolute;
+        }
+
+        .inset-0 {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .fixed {
+            position: fixed;
+        }
+
+        .pointer-events-none {
+            pointer-events: none;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .rounded-2xl {
+            border-radius: 1rem;
+        }
+
+        .backdrop-blur-md {
+            backdrop-filter: blur(6px);
+        }
+
+        .font-mono {
+            font-family: 'Roboto Mono', monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+html {
+    background: #0a0015;
+}
+
+body {
+    margin: 0;
+    background: #0a0015;
+    color: #cfefff;
+}
+
+/* helper to center */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
